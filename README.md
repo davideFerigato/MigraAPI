@@ -10,12 +10,7 @@
 ![Pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)
 ![Anthropic](https://img.shields.io/badge/Anthropic-Claude-5A3E2B?logo=anthropic)
 ![Agent Skills](https://img.shields.io/badge/Agent_Skills-v1.0-5A3E2B)
-![GitHub last commit](https://img.shields.io/github/last-commit/davideFerigato/MigraAPI)
-![GitHub issues](https://img.shields.io/github/issues/davideFerigato/MigraAPI)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/davideFerigato/MigraAPI)
-![GitHub stars](https://img.shields.io/github/stars/davideFerigato/MigraAPI?style=social)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux%20%7C%20Windows-lightgrey)
-![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/davideFerigato/MigraAPI/badge)
 
 > AI agent based on **Claude Skills** and **Subagents** (Anthropic) that automatically migrates code from a deprecated API to a new API.
 
