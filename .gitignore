@@ -26,3 +26,18 @@ ENV/
 # Output di test o migrazione temporanea
 temp_*
 *.tmp
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Generated reports
+migration_report.json
+*.tmp
+output.txt
+*.log
+
+# Backup files
+*.backup
+*.bak

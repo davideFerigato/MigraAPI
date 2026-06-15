@@ -1,8 +1,0 @@
-{
-  "timestamp": "2026-06-14T23:32:05Z",
-  "source_directory": "/Users/davideferigato/Documents/GitHub/MigraAPI/examples/before",
-  "files_scanned":        2,
-  "files_with_occurrences": 2,
-  "status": "demo_success",
-  "message": "This is a simulation. In real Claude Code execution, the orchestrator would call the scanner/rewriter/validator subagents using the Task tool."
-}

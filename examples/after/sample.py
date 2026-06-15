@@ -1,6 +1,6 @@
-# Example Python code with deprecated API
-from new_api import Client, fetch_data
-import old_api as api
+# Example Python code with new API
+from new_api import Client, fetch_user_by_id
+import new_api as api
 
 def main():
     client = Client(api_key="secret")
@@ -9,14 +9,14 @@ def main():
     user = new_api.fetch_user_by_id(user_id=123)
     print(user)
     
-    # Call via client instance (if client uses same method names)
-    posts = client.fetch_posts(user_id=123)
+    # Call via client instance
+    posts = client.list_posts_by_user(user_id=123)
     
     # Function import call
-    data = fetch_data(user_id=123)
+    data = fetch_user_by_id(user_id=123)
     
     # Alias call
-    result = api.get_user(user_id=456)
+    result = api.fetch_user_by_id(user_id=456)
     
     return user, posts, data, result
 
