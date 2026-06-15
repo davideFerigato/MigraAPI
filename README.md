@@ -12,6 +12,23 @@
 ![Agent Skills](https://img.shields.io/badge/Agent_Skills-v1.0-5A3E2B)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux%20%7C%20Windows-lightgrey)
 
+![Claude Skills](https://img.shields.io/badge/Claude_Skills-5A3E2B?style=flat-square&logo=anthropic&logoColor=white)
+![Subagents](https://img.shields.io/badge/Subagents-7B2D8E?style=flat-square&logo=anthropic)
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Maintenance](https://img.shields.io/badge/Maintenance-yes-green)
+![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196)
+![Code style](https://img.shields.io/badge/code%20style-ruff-000000.svg)
+![Pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Anthropic-Claude-5A3E2B?logo=anthropic)
+![Agent Skills](https://img.shields.io/badge/Agent_Skills-v1.0-5A3E2B)
+![GitHub last commit](https://img.shields.io/github/last-commit/davideFerigato/MigraAPI)
+![GitHub issues](https://img.shields.io/github/issues/davideFerigato/MigraAPI)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/davideFerigato/MigraAPI)
+![GitHub stars](https://img.shields.io/github/stars/davideFerigato/MigraAPI?style=social)
+![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux%20%7C%20Windows-lightgrey)
+![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/davideFerigato/MigraAPI/badge)
+
 > AI agent based on **Claude Skills** and **Subagents** (Anthropic) that automatically migrates code from a deprecated API to a new API.
 
 ## Table of Contents
