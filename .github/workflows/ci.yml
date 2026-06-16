@@ -19,3 +19,27 @@ jobs:
         run: python tests/test_migration.py
       - name: Run demo script (non-destructive)
         run: ./demo-script.sh
+
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check Markdown links
+        uses: gaurav-nelson/github-action-markdown-link-check@v1
+        with:
+          use-quiet-mode: 'yes'
+          use-verbose-mode: 'yes'
+          config-file: .mlc_config.json
+      - name: Validate JSON files
+        run: |
+          find . -name "*.json" -not -path "./.git/*" -exec python -m json.tool {} \; > /dev/null
+      - name: Validate YAML files (frontmatter in .md)
+        run: |
+          for file in .claude/agents/*.md .claude/skills/api-migration/SKILL.md; do
+            if [ -f "$file" ]; then
+              # Extract frontmatter (between --- and ---)
+              sed -n '/^---$/,/^---$/p' "$file" | tail -n +2 | head -n -1 > /tmp/frontmatter.yaml
+              python -c "import yaml; yaml.safe_load(open('/tmp/frontmatter.yaml'))" || exit 1
+            fi
+          done
+        continue-on-error: true  # se non hai pyyaml nel runner, fallisce ma non blocca
