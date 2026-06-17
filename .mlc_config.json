@@ -1,0 +1,32 @@
+{
+  "ignorePatterns": [
+    {
+      "pattern": "^https://zenodo.org/badge/"
+    },
+    {
+      "pattern": "^https://doi.org/10.5281/zenodo."
+    },
+    {
+      "pattern": "^https://img.shields.io/"
+    },
+    {
+      "pattern": "^https://github.com/davideFerigato/MigraAPI"
+    },
+    {
+      "pattern": "^https://docs.anthropic.com/"
+    }
+  ],
+  "httpHeaders": [
+    {
+      "urls": [
+        "https://github.com",
+        "https://docs.anthropic.com"
+      ],
+      "headers": {
+        "Accept-Encoding": "gzip, deflate, br"
+      }
+    }
+  ],
+  "timeout": 10,
+  "retryOn429": true
+}

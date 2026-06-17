@@ -34,10 +34,6 @@ No external dependencies required. Just Python 3.9+ and optionally Node.js for J
 
 Use GitHub Issues. Provide steps to reproduce, expected vs actual behavior, and any logs.
 
-## Code of Conduct
-
-Please read [CODE_OF_CONDUCT.md](../CODE_OF_CONDUCT.md).
-
 ## License
 
 By contributing, you agree that your contributions will be licensed under the MIT License.
