@@ -1,7 +1,6 @@
 <div align="center">
-  <!-- Sostituisci con il tuo logo -->
   <img src="docs/images/logo.png" alt="MigraAPI Logo" width="120" />
-  <h1>🦾 MigraAPI</h1>
+  <h1>MigraAPI</h1>
   <p><em>“Claude Agent for Automated API Migration”</em></p>
 </div>
 
@@ -378,15 +377,7 @@ python tests/test_migration.py
 
 ---
 
-## License
-
-MIT License. See [`LICENSE`](LICENSE) for details.
-
----
-
 ## Acknowledgements
-
-Built with ❤️ using:
 
 - [Anthropic Claude](https://www.anthropic.com)
 - [Model Context Protocol (MCP)](https://modelcontextprotocol.io)
@@ -396,6 +387,5 @@ Built with ❤️ using:
 ---
 
 <div align="center">
-  <sub>MigraAPI – Senior Portfolio Project</sub><br>
-  <sub>Covers all 4 Anthropic courses: Agent Skills, Subagents, Introduction to MCP, MCP Advanced Topics</sub>
+  <sub>MigraAPI</sub><br>
 </div>
