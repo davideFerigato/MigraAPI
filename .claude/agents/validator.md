@@ -44,3 +44,8 @@ prompt: |
   - If any error is found, report them with line numbers if possible.
   - Return structured JSON with explicit obstacle details.
   - Do not modify the file.
+
+## Cross-platform fallback for Windows
+- On Windows, `node --check` may not be in PATH. Use `where node` first.
+- If `node` is not found, fall back to `npx --yes check-node-version` or skip JS validation with a warning.
+- For Python, `python -m py_compile` works on all platforms.
