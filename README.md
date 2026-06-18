@@ -35,7 +35,6 @@
 
 ## Table of Contents
 
-- [Introduction](#introduction)
 - [Architecture](#architecture)
 - [Progressive Disclosure](#progressive-disclosure)
 - [Skills vs CLAUDE.md vs Hooks vs Subagents](#skills-vs-claudemd-vs-hooks-vs-subagents)
@@ -49,19 +48,6 @@
 - [Examples](#examples)
 - [Troubleshooting](#troubleshooting)
 - [Roadmap](#roadmap)
-
----
-
-## Introduction
-
-**MigraAPI** is a comprehensive demonstration project that implements **all four Anthropic courses**:
-
-1. ✅ **Introduction to Agent Skills** – SKILL.md, progressive disclosure, hooks, plugin.json
-2. ✅ **Introduction to Subagents** – scanner, rewriter, validator with structured JSON & obstacle reporting
-3. ✅ **Introduction to MCP** – MCP Server with tools, resources, prompts, STDIO transport
-4. ✅ **MCP Advanced Topics** – Sampling, progress notifications, roots, Streamable HTTP transport
-
-It automates the migration of deprecated API calls in Python and JavaScript codebases using an orchestrator agent that delegates tasks to isolated subagents, and exposes all capabilities via the **Model Context Protocol (MCP)**.
 
 ---
 
@@ -372,7 +358,6 @@ python tests/test_migration.py
 - [x] MCP Advanced Topics (Sampling, Progress, Roots)
 - [x] Streamable HTTP transport for remote deployment
 - [x] Full documentation and CI/CD
-- [ ] Support more languages (Java, Go, TypeScript)
 - [ ] Publish as a plugin on Anthropic marketplace
 
 ---
